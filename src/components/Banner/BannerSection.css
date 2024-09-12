@@ -1,3 +1,10 @@
+.heading-main {
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: 20px;
+}
+
 .BannerSection {
   display: flex;
   flex-direction: row;
@@ -127,6 +134,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  .heading-main {
+    font-size: 40px !important;
+  }
+
   .heading {
     font-weight: 500;
     font-size: 40px !important;

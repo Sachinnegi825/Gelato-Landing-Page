@@ -13,7 +13,12 @@ function BannerSection({id,heading, image, imagePosition,bg,body }) {
 
   return (
     <div style={{background:bg?bg:"white"}}>
+        {
+              heading &&  <h1 className='heading-main'>{heading}</h1>
+            }
+           
            <div className={`BannerSection ${isImageLeft ? 'left-image' : 'right-image'}`}>
+          
       <div className="BannerSection-image banner-part">
         <img src={image} alt="img" />
       </div>

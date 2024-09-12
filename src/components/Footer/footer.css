@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer-container {
+    width: 95%;
+  }
+
   .footer-middle {
     flex-direction: column-reverse;
     gap: 20px;
